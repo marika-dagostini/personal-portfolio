@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marika D'Agostini - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/icons8-heat-map-100.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Marika D'Agostini" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Marika D'Agostini">Marika D'Agostini</h1>
+
+          <p class="title">PhD Student in Statistical Sciences</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:marika.dagostini2@unibo.it" class="contact-link">marika.dagostini2@unibo.it</a>
+            </div>
+
+          </li>
+
+      <!--    <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1996-05-15">May 15, 1996</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bologna, Italy</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.unibo.it/sitoweb/marika.dagostini2" class="social-link">
+              <ion-icon name="school-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/marikadagostini/" class="social-link" title="LinkedIn Profile">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/marika-dagostini" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Presentations</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+      <!--    <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+         <p>
+  I'm a PhD Student in Statistical Sciences at the University of Bologna, where I also work as a teaching tutor 
+  in the Department of Statistical Sciences "Paolo Fortunati". </p>
+  <p>
+  My research interests lie in <b>Bayesian hierarchical models</b>, particularly <b>spatial and spatio-temporal modelling</b>, with applications in <b>environmental</b> and <b>epidemiological</b> studies.
+  I am also interested in <b>data visualization</b> and enjoy creating web map applications to present spatial data in a clear and interactive way.
+</p>
+
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm researching</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-uhi.png" alt="uhi" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Urban Heat Islands</h4>
+
+                <p class="service-item-text">
+                  Bayesian hierarchical modeling to quantify urban heat islands and develop high-temperature exposure maps for epidemiological research.</p>
+               </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-layers.svg" alt="composite index" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Vulnerability Indicators</h4>
+
+                <p class="service-item-text">
+                  Bayesian latent factor models to construct composite indicators of environmental and climate vulnerability.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-disease-map.png" alt="Disease Mappings" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Disease Mapping</h4>
+
+                <p class="service-item-text">
+                  Extending disease mapping models to address the unique spatial challenges posed by small and irregularly shaped areas.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-rss.svg" alt="Remote Sensing" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Downscaling in Remote Sensing</h4>
+
+                <p class="service-item-text">
+                  Bayesian hierarchical models to downscale low-resolution remote sensing data to improve exposure assessment in epidemiological studies.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-data-viz.svg" alt="Data Visualization" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Visualization</h4>
+
+                <p class="service-item-text">
+                  Developing web-based mapping applications to communicate research findings in a clear and accessible way.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-yarn.svg" alt="Knitting" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Knitting</h4>
+
+                <p class="service-item-text">
+                  Perhaps not (yet) a formal academic discipline, but one with more maths and trial-and-error research than one might expect.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  ...
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PhD in Statistical Sciences</h4>
+
+              <span>2023 — Present</span>
+
+                <ul class="timeline-text">
+                  <li><b>University of Bologna</b></li>
+                  <li>Research Topic: <em>Bayesian Hierarchical Models for Urban Vulnerability Assessment</em></li>
+                </ul>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">2nd Level Master in Geostatistics for Human, Animal and Environmental Health </h4>
+
+              <span>2021 — 2022</span>
+
+              <ul class="timeline-text">
+                  <li><b>University of Padova</b></li>
+                  <li>Thesis: <em>Data Analysis of Air Quality Sensors: the Case Study of Villa Revedin-Bolasco</em></li>
+                </ul>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MSc in Statistical Sciences </h4>
+
+              <span>2018 — 2020</span>
+
+              <ul class="timeline-text">
+                  <li><b>University of Bologna</b></li>
+                  <li>Thesis: <em>Quantifying Land Fragmentation: an Entropy-based Approach</em></li>
+                </ul>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BSc in Statistical Sciences </h4>
+
+              <span>2015 — 2018</span>
+
+              <ul class="timeline-text">
+                  <li><b>University of Bologna</b></li>
+                  <li>Thesis: <em>Features of the Italian Population According to the DEGURBA Classification</em></li>
+                </ul>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Visiting PhD Student</h4>
+
+              <span>2025</span>
+
+              <p class="timeline-text">
+                Department of Epidemiology of Lazio Regional Health Service (Rome, Italy)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Fellow</h4>
+
+              <span>2023</span>
+
+              <p class="timeline-text">
+                Department of Medical and Surgical Sciences, University of Bologna (Bologna, Italy)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Scientist</h4>
+
+              <span>2021 — 2023</span>
+
+              <p class="timeline-text">
+                SIS-TER s.r.l. SB, (Imola, Bologna)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern</h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+              ISTAT - Italian National Institute of Statistics (Rome, Italy)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Erasmus+ MSc Student</h4>
+
+              <span>2019</span>
+
+              <p class="timeline-text">
+                 Department of Mathematics, Aarhus University (Aarhus, Denmark)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern</h4>
+
+              <span>2018</span>
+
+              <p class="timeline-text">
+                Dolomiti Bellunesi National Park Authorit (Feltre, Italy)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">R</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">QGIS</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">STATA</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> <br><br>
+
+        <a href="https://www.unibo.it/sitoweb/marika.dagostini2/cv-en" 
+   class="form-btn" 
+   target="_blank">
+
+  <ion-icon name="open-outline"></ion-icon>
+  <span>Full Academic CV</span>
+</a>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Articles</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Proceedings</button>
+            </li>
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Articles</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Proceedings</button>
+              </li>
+
+               </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="proceedings">
+              <a href="https://dx.doi.org/10.1093/occmed/kqae023.0451">
+
+                <h3 class="project-title">(2024) Protective Role of Anti-S IgG Against SARS-CoV-2 During the Omicron Variant Wave Among Healthcare Workers: Results From Two Large Italian University Hospitals - ORCHESTRA Project</h3>
+
+                <p class="project-category">Proceeding - ICOH '24</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="articles">
+              <a href="https://dx.doi.org/10.1007/s15010-024-02189-x">
+
+                <h3 class="project-title">(2024) Protective Role of SARS-CoV-2 Anti-S IgG Against Breakthrough Infections Among European Healthcare Workers During Pre and Post-Omicron Surge - ORCHESTRA Project</h3>
+
+                <p class="project-category">Article</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="articles">
+              <a href="https://dx.doi.org/10.23749/mdl.v115i3.15568">
+
+                <h3 class="project-title">(2024) Risk of Gynecological and Breast Cancers in Workers Exposed to Diesel Exhaust: A Systematic Review and Meta-Analysis Of Cohort Studies</h3>
+
+                <p class="project-category">Article</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="articles">
+              <a href="https://dx.doi.org/10.23749/mdl.v115i2.15569">
+
+                <h3 class="project-title">(2024) Risk of Skin Cancer in Workers Exposed to Diesel Exhaust: A Systematic Review and Meta-Analysis of Cohort Studies</h3>
+
+                <p class="project-category">Article</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="articles">
+              <a href="https://dx.doi.org/10.3390/fi14100280">
+
+                <h3 class="project-title">(2022) Information Technologies for Real-Time Mapping of Human Well-Being Indicators in an Urban Historical Garden</h3>
+
+                <p class="project-category">Article</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="proceedings">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-031-17439-1_13">
+
+                <h3 class="project-title">(2022) Smart Urban Waste Management System: the Case Study of Delft, Netherlands </h3>
+
+                <p class="project-category">Proceeding - ASITA '22</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+           <!--
+        - #CONFERENCES & TALKS
+      -->
+
+      <article class="portfolio" data-page="presentations">
+
+        <header>
+          <h2 class="h2 article-title">Presentations</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Conference Presentations</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Posters</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Invited Talks</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Conference Presentations</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Posters</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Invited Talks</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="invited talks">
+              <a href="https://drive.google.com/file/d/1CMIpwPVWY35Q4C3MwtVb7pt6zHuMzSSX/view?usp=drive_link">
+
+                <h3 class="project-title">Measuring the Thermal Effects of Urban Transformation: a Fine-scale Analysis of Land Surface Temperature</h3>
+
+                <p class="project-category">Talk @ Sustainability in a Global Perspective: a Trilateral Forum (Mar 3, 2026)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="invited talks">
+              <a href="https://drive.google.com/file/d/19YQXL_MEL1pPg_ATKZTGcAx8FmigB7fg/view?usp=sharing">
+
+                <h3 class="project-title">Uncovering Local Urban Heat Patterns: a Bayesian Hierarchical Approach</h3>
+
+                <p class="project-category">Talk @ DEP Lazio (Nov 27, 2025)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="posters">
+              <a href="https://drive.google.com/file/d/1G43DCN0KhVyUlnWXOUXznMRqgSQUfWxS/view?usp=drive_link">
+
+                <h3 class="project-title">Spatio-temporal Analysis of Surface Urban Heat Islands Using 
+                  High-resolution Remote Sensing and SPDE-INLA: the Case Study of Bologna, Italy.</h3>
+
+                <p class="project-category">Poster @ SIS-GRASPA (Sep 16, 2025)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="posters">
+              <a href="https://drive.google.com/file/d/12j7VdiZW2Oi0gvmvKhVYSKYSuq71Wcmf/view?usp=drive_link">
+
+
+                <h3 class="project-title">Spatio-temporal Prediction of SARS-CoV-2 Using INLA: a Wastewater-based Epidemiology Case Study in Bologna, Italy.</h3>
+
+                <p class="project-category">Poster @ INLA Workshop (May 21, 2025)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="conference presentations">
+              <a href="https://drive.google.com/file/d/1HTbHaH0XmnNqaXGRQYz9rTRhmhmOx-h8/view?usp=drive_link">
+
+                <h3 class="project-title">L'Uso di Modelli Bayesiani nella Previsione Spaziale del Virus SARS-CoV-2: un Caso Studio di Wastewater-based Epidemiology nell'Area di Bologna.</h3>
+
+                <p class="project-category">Presentation @ AIE (Apr 11, 2025)</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+             <li class="blog-post-item">
+              <a href="https://www.bibliotecasalaborsa.it/events/generazioni-2026">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/generazioni.jpeg" alt="GenerAzioni 2026" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Academic Outreach</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2026-03-11">March 11, 2026</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">GenerAzioni 2026</h3>
+
+                  <p class="blog-text">
+                    A discussion with the public at Biblioteca Salaborsa on how wastewater-based epidemiology can help monitor COVID-19 in Bologna.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://ugis.it/cms/marika-dagostini/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/ugis.jpeg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Academic Outreach</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-09-03">September 3, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Tracking COVID-19 Through Wastewater - UGIS Article </h3>
+
+                  <p class="blog-text">
+                    As part of the PhD Storytelling Lab, I worked on an article on wastewater-based epidemiology and how it can be used to anticipate COVID-19 outbreaks in Bologna.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://abs25.imati.cnr.it/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/abs.png" alt="Applied Bayesian Statistics School 2025" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Summer School</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-06-07">June 9, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Applied Bayesian Statistics (ABS) School 2025</h3>
+
+                  <p class="blog-text">
+                    I had the chance to attend ABS 2025 and learn from Prof. Alexandra Schmidt and Dr. Carlo Zaccardi. 
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://site.unibo.it/phd-storytelling/it">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/phd-storytelling.png" alt="Phd Storytelling Lab 2025" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Academic Outreach</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-05-31">May 31, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Phd Storytelling Lab 2025</h3>
+
+                  <p class="blog-text">
+                    I took part in the 2025 PhD Storytelling Lab, a great experience and a chance to learn how to communicate my research beyond academia.
+</p>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://warwick.ac.uk/fac/sci/statistics/apts/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/APTSname-whitebg-large.png" alt="Academy for PhD Training in Statistics (APTS)" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Summer School</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-07-13">July 13, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Academy for PhD Training in Statistics (APTS)</h3>
+
+                  <p class="blog-text">
+                    Happy to have taken part in the 3rd week of APTS in Durham, where I followed courses on high-dimensional and computer intensive statistics.
+</p>
+                </div>
+
+              </a>
+            </li>
+
+  
+
+            <li class="blog-post-item">
+              <a href="https://orchestra-cohort.eu/press-releases/orchestra-study-examines-incidence-and-risk-factors-of-sars-cov-2-breakthrough-infections-among-health-workers/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/orchestra1.jpeg" alt="SARS-CoV-2 breakthrough infections" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Occupational Epidemiology</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-04-03">April 03, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">SARS-CoV-2 breakthrough infections in health workers</h3>
+
+                  <p class="blog-text">
+                    Latest update on WP5 activities within the ORCHESTRA project.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://orchestra-cohort.eu/press-releases/orchestra-cohort-study-shows-temporal-trends-of-covid-19-antibodies-in-vaccinated-healthcare-workers-over-13-months-of-repeated-serological-sampling/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/orchestra2.jpeg" alt="COVID-19 Antibody Trends in Healthcare Workers" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Occupational Epidemiology</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-03-30">March 30, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">COVID-19 Antibody Trends in Healthcare Workers</h3>
+
+                  <p class="blog-text">
+                    Discover how COVID-19 antibody levels evolved over time in vaccinated healthcare workers.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.retealtatecnologia.it/en/node/21952">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/DELFT-immagine 2-2.jpg" alt="ML-based Waste Management System" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Waste Management</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">February 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Smart Waste Management System for the City of Delft </h3>
+
+                  <p class="blog-text">
+                      Learn more about this project, where I work to the ML algorithms behind the dashboard.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+           
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2171.482284775427!2d11.351853975180205!3d44.49668102107455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fd4b0972197df%3A0xf9f1daa55e0337a!2sDipartimento%20di%20Scienze%20Statistiche%20%22Paolo%20Fortunati%22%20-%20Uffici%20Assegnisti%20e%20Dottorandi!5e1!3m2!1sit!2sit!4v1774130298107!5m2!1sit!2sit" width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form"> -->
+
+     <!--    <h3 class="h3 form-title">Contact Form</h3> --->
+
+      <!--    <form action="mailto:marika.dagostini2@unibo.it" class="form" data-form> -->
+
+       <!--      <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea> -->
+
+        <!--    <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Email</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article> -->
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
