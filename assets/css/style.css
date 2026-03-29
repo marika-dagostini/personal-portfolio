@@ -1048,21 +1048,21 @@ main {
   position: absolute;
   inset: 1px;
   border-radius: inherit;
-  background: var(--eerie-white-1);
+  background: var(--border-gradient-onyx-white);
   z-index: -1;
 }
 
 .blog-banner-box {
   width: 100%;
-  height: 200px;
+ /* height: 200px; */
   border-radius: 12px;
   overflow: hidden;
 }
 
 .blog-banner-box img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+ height: 50%; 
+  object-fit: cover; 
   transition: var(--transition-1);
 }
 
@@ -1746,7 +1746,8 @@ textarea.form-input::-webkit-resizer { display: none; }
    * BLOG
    */
 
-  .blog-banner-box { height: 230px; }
+  .blog-banner-box { height: auto; }
+  .blog-banner-box img { height: 80px; }
 
 }
 
