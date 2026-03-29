@@ -59,7 +59,7 @@
 --smoky-white: hsl(0, 0%, 100%); /*background*/
 --menu: hsla(257, 10%, 72%, 0.8);
 
---red-unibo: hsl(2, 79%, 35%); 
+--red-unibo: #a01713; 
 --nice-purple: #32303a; /* posizione corrente e titoletti */
 
 /* accent (kept bluish instead of yellow) */
