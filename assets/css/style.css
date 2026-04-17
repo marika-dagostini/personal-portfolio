@@ -40,7 +40,7 @@
 ), hsla(0, 10%, 72%, 0.88);
 
 --border-gradient-onyx-white: 
-  hsla(0, 10%, 72%, 0.9) ;
+  hsla(0, 10%, 72%, 0.902) ;
 
 --text-gradient-red: linear-gradient(
   to right, 
@@ -55,7 +55,7 @@
 --jet-white-bar-back: hsla(0, 3%, 77%, 0.88);
 --onyx-white: hsla(0, 13%, 81%, 0.3);
 --eerie-white-1: hsla(0, 13%, 81%, 0.88);
---eerie-white-2: #d5c8c8e0;
+--eerie-white-2: rgba(213, 200, 200, 0.92);
 --smoky-white: hsl(0, 0%, 100%); /*background*/
 --menu: hsla(0, 10%, 72%, 0.8);
 
